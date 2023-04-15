@@ -1,0 +1,205 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Great+Vibes&family=Merienda:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --font-1: 'Pacifico', cursive;
+    --font-2:'Acme', sans-serif;
+    --font-3: 'Great Vibes', cursive;
+    --font-4:'Merienda', cursive;
+    --hover-color:#363b68 ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    /* font-weight: 70; */
+   
+}
+ .cardset * {
+    font-family: var(--font-2);
+}
+
+.headerr *{
+    font-family: var(--font-2);
+  
+}
+
+
+body {
+ 
+    overflow-x: hidden;
+}
+
+.bg-grid{
+    background: rgb(238,174,202);
+background: linear-gradient(180deg, #eeaeca 9%, #7a85e3 100%);}
+
+.pl-8{
+    padding-left: 7rem;
+}
+@media(max-width: 900px){
+    .pl-8{ padding-left: 2rem;}
+}
+nav li a{
+    font-family: var(--font-4);
+    font-weight:900;
+    font-size: 1.2rem !important;
+    
+}
+nav li a:hover{color: #404cb8 !important;}
+.navbar-brand{
+    font-family: var(--font-2);
+    font-size: x-large;
+}
+.navbar-brand:hover{
+    color:var(--hover-color) ;
+}
+.vh21{
+    padding-top: 30vh;
+}
+.font-stroke{
+    -webkit-text-stroke: 0.2px black;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1.5px 1.5px 2px #363b68 ;
+    transition: .5s;
+    ;
+
+}
+.font-stroke:hover{
+    text-shadow: 2px 2px 3.5px #363b68 ;
+}
+.font-stroke a{
+    -webkit-text-stroke: 0.0px black;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: none;
+    color: black;
+
+}
+.font-stroke2{
+    text-shadow: 0 0 2px #000; 
+    -moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+    transition: .5s;
+    ;
+
+}
+.font-stroke2:hover{
+    text-shadow: 2px 2px 3.5px #363b68 ;
+}
+.overlab{
+    position: absolute;
+    background-color: white;
+    top:7vmin;
+    left:-12vmin;
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 5px;
+    /* height: 70vh; */
+    padding: 13vmin 5vmin 10vmin 10vmin;
+    
+    overflow-x:;
+}
+@media(max-width: 767px){ 
+    .overlab{
+        left: 0px;
+        position: relative;
+    }
+}
+.backimage{
+    background-image: url(../assets/pexels-photo-452738.jpeg);
+    background-size: 130%;
+    background-position: 35% 15%;
+    height: 55vmin;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    
+}
+
+
+@media(max-width: 1010px){
+    .backimage{margin-top: 50px;}
+    .overlab{padding: 13vmin 5vmin 5vmin 10vmin;}
+}
+.backimage >div:first-of-type{
+    background-color: #3f1759a9;
+    width: 100%;
+    height: 100%;
+    z-index: ;
+}
+.backimage >div:nth-child(2){
+   
+    position: absolute;
+}
+.margeo {
+    position: relative;
+    margin-top: -15vmin;
+    z-index: 999;
+    
+    
+   
+    
+}
+.rect{
+    margin-top: 26px;
+    min-width: 9rem;
+    width: 15vmax;
+    height: 120px;
+    box-shadow: #eeaeca 0px 0px 4px;
+    border: #363b68 1px solid;
+   
+}
+.card-size{ width: 22rem;}
+.card-btn{
+    background-color: black;
+    text-decoration: none;
+    color: #eec7d8;
+    border-radius:35px;
+
+
+}
+.card-btn:hover{color: #eee; background: #21243d;}
+
+
+.card-header{
+    background-color: #bbc1ff !important;
+    height: 4rem !important;
+}
+.bg-card{
+    background: repeating-radial-gradient(circle at 50% 0%  ,#bbc1ff,  #eec7d8 150%);
+    border-top-right-radius: 11rem;
+    border-top-left-radius: 11rem;
+}
+
+.zadd{
+    height: 100%;
+    object-fit: cover;
+    object-position: 80% 50%;
+    /* scale: 150%; */
+ 
+    
+}
+.div-width{
+    height: 10rem;
+    width: 10rem;
+}
+.card-joby{
+    color: #666 !important;
+}
+.card-size2{width: 18rem;}
+.text-gridiant{
+    
+    background: -webkit-linear-gradient(90deg, #7aa2f8 5%, #f6bcef 53%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1.2px transparent;
+  -webkit-font-smoothing: antialiased;
+  color: #232d2d;
+}
+.footer{
+    background-color: #1f2131;
+}
+.text-muted2{color: #ddd;}
